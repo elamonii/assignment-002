@@ -311,6 +311,7 @@ footer{
     .blogs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
         justify-content: space-around;
         align-items: center;
     }
@@ -346,6 +347,7 @@ footer{
         align-items: center;
         justify-content: space-around;
         flex-direction: row;
+        row-gap: 10px;
 
     }
 
