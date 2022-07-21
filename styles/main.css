@@ -143,6 +143,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
     align-items: center;
+    grid-column-gap: 20px;
 }
 
 .blog{
@@ -257,25 +258,27 @@ footer{
     align-items: center;
 }
 
-.footer-content hr{
-    color: #FFFFFF;
-}
 
 .footer-content h1{
     color: #FFFFFF;
     font-size: 40px;
     font-weight: 600;
     line-height: 60px;
+    width: 898px;
+    border-bottom: 1px solid rgba(174, 173, 173, 0.1);
+    display: flex;
+    justify-content: center;
 }
 
 .footer-menu{
     /* width: 898px; */
-    width: 100%;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 30px 0;
+    width: 60%;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
+    padding: 0 0 30px 0;
 }
 .footer-menu ul{
     display: flex;
+    /* width: 60%; */
     justify-content: space-around;
     align-items: center;
 }
@@ -316,19 +319,6 @@ footer{
         align-items: center;
     }
 
-    .banner {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: flex-end;
-        width: 1136px;
-        margin: 50px 140px;
-        padding-left: 106px;
-        padding-right: 79px;
-        background-color: #161616;
-        border: 0;
-        border-radius: 30px;
-    }
 
     .left-section {
         display: flex;
@@ -363,4 +353,67 @@ footer{
         flex-direction: column;
 
     }
+}
+
+@media screen and (max-width:577px) {
+    .banner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 734px;
+            margin: 50px 140px;
+            padding-left: 106px;
+            padding-right: 79px;
+            background-color: #161616;
+            border: 0;
+            border-radius: 30px;
+        }
+    
+        .slogan {
+            /* margin: 111px 0; */
+            width: 316px;
+            margin: 70px 0;
+            /* height: 424px; */
+        }
+    
+        .banner-head {
+            font-size: 40px;
+            font-weight: 700;
+            color: #FFFFFF;
+            /* line-height: 80px; */
+            margin: 0;
+            padding: 0;
+        }
+    
+        .banner-desc {
+            font-size: 16px;
+            font-weight: 400;
+            color: #FFFFFF;
+            line-height: 26px;
+        }
+    
+        .banner-link {
+            font-size: 20px;
+            font-weight: 400;
+            color: #FFFFFF;
+            background-color: #DD0000;
+            border: 0;
+            padding: 16px 25px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    
+        .banner-image {
+            align-items: flex-end;
+            border: 0;
+        }
+    
+        .banner-image img {
+            width: 233px;
+            height: 245px;
+        }
 }
