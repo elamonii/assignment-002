@@ -303,6 +303,29 @@ footer{
     /* padding-right: 20px; */
 }
 
+.footer-social-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-social-links ul li a {
+    font-size: 20px;
+    color: #DD0000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.footer-social-links ul li a {
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
 /* -----------------------------footer style end------------------------------- */
 
 
