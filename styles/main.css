@@ -4,6 +4,7 @@ body{
     margin: 0 auto;
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Poppins', sans-serif;
+    width: 100%;
 }
 /* ---------------------------common styles for entire website end---------------------- */
 
@@ -304,127 +305,5 @@ footer{
 
 /* -----------------------------footer style end------------------------------- */
 
-/* Medium devices (tablets) */
-@media screen and (min-width:577px) and (max-width:992px) {
-    .tab-view-button {
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-        cursor:grab;
-    }
-
-    .tab-view-button a{
-        text-decoration: none;
-        color: #FFFFFF;
-    }
-
-    .blogs {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-        justify-content: space-around;
-        align-items: center;
-    }
 
 
-    .left-section {
-        display: flex;
-        justify-content: center;
-        background-color: #FFFFFF;
-        border-radius: 10px;
-        /* width: 312px; */
-        margin-right: 24px;
-        padding: 20px;
-    }
-
-    .left-section nav ul {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: row;
-        row-gap: 10px;
-
-    }
-
-    .left-section nav ul li{
-        border: 1px solid rgba(97, 93, 93, 0.1);
-    }
-
-    .main-part {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 1136px;
-        flex-direction: column;
-
-    }
-}
-
-@media screen and (max-width:577px) {
-    .banner {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 734px;
-            margin: 50px 140px;
-            padding-left: 106px;
-            padding-right: 79px;
-            background-color: #161616;
-            border: 0;
-            border-radius: 30px;
-        }
-    
-        .slogan {
-            /* margin: 111px 0; */
-            width: 316px;
-            margin: 70px 0;
-            /* height: 424px; */
-        }
-    
-        .banner-head {
-            font-size: 40px;
-            font-weight: 700;
-            color: #FFFFFF;
-            /* line-height: 80px; */
-            margin: 0;
-            padding: 0;
-        }
-    
-        .banner-desc {
-            font-size: 16px;
-            font-weight: 400;
-            color: #FFFFFF;
-            line-height: 26px;
-        }
-    
-        /* .banner-link{
-            background-color: #DD0000;
-            border: 0;
-            padding: 16px 25px;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            -ms-border-radius: 5px;
-            -o-border-radius: 5px;
-        } */
-
-        /* .banner-link a{
-            text-decoration: none;
-            color: #FFFFFF;
-            font-size: 20px;
-            font-weight: 400;
-        } */
-    
-        .banner-image {
-            align-items: flex-end;
-            border: 0;
-        }
-    
-        .banner-image img {
-            width: 233px;
-            height: 245px;
-        }
-}
